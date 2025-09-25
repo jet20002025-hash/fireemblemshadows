@@ -10,13 +10,6 @@
   
   <!-- Reviews Section -->
   <url>
-    <loc>https://fireemblemshadows.org/reviews/</loc>
-    <lastmod>2024-12-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
     <loc>https://fireemblemshadows.org/reviews/fire-emblem-shadows-complete-review</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
@@ -25,21 +18,7 @@
   
   <!-- Guides Section -->
   <url>
-    <loc>https://fireemblemshadows.org/guides/</loc>
-    <lastmod>2024-12-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
     <loc>https://fireemblemshadows.org/guides/character-building-guide</loc>
-    <lastmod>2024-12-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fireemblemshadows.org/guides/battle-strategies</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -51,92 +30,5 @@
     <lastmod>2024-12-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>https://fireemblemshadows.org/news/major-update-december-2024</loc>
-    <lastmod>2024-12-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>https://fireemblemshadows.org/news/holiday-event-winter-2024</loc>
-    <lastmod>2024-12-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>https://fireemblemshadows.org/news/tournament-strategies-december-2024</loc>
-    <lastmod>2024-12-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <!-- Character Database -->
-  <url>
-    <loc>https://fireemblemshadows.org/characters/</loc>
-    <lastmod>2024-12-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <!-- Community Sections -->
-  <url>
-    <loc>https://fireemblemshadows.org/forums/</loc>
-    <lastmod>2024-12-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>https://fireemblemshadows.org/tournaments/</loc>
-    <lastmod>2024-12-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>https://fireemblemshadows.org/leaderboards/</loc>
-    <lastmod>2024-12-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fireemblemshadows.org/events/</loc>
-    <lastmod>2024-12-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <!-- Static Pages -->
-  <url>
-    <loc>https://fireemblemshadows.org/about/</loc>
-    <lastmod>2024-12-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://fireemblemshadows.org/contact/</loc>
-    <lastmod>2024-12-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://fireemblemshadows.org/privacy/</loc>
-    <lastmod>2024-12-19</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  
-  <url>
-    <loc>https://fireemblemshadows.org/terms/</loc>
-    <lastmod>2024-12-19</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
   </url>
 </urlset>
