@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strategy Guides - Fire Emblem Shadows | fireemblemshadows.org</title>
+    <meta name="description" content="Master Fire Emblem Shadows with our comprehensive strategy guides. Character building, battle tactics, team composition, and advanced strategies for mobile strategy RPG.">
+    <meta name="keywords" content="Fire Emblem Shadows guides, strategy guides, character building, battle tactics, mobile strategy RPG, game walkthrough">
+    <meta name="author" content="Fire Emblem Shadows Community">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://fireemblemshadows.org/guides/">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Strategy Guides - Fire Emblem Shadows">
+    <meta property="og:description" content="Master Fire Emblem Shadows with our comprehensive strategy guides. Character building, battle tactics, and advanced strategies.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fireemblemshadows.org/guides/">
+    <meta property="og:image" content="https://fireemblemshadows.org/images/guides-og.jpg">
+    
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7208260866318884" crossorigin="anonymous"></script>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'apple-blue': '#007AFF',
+                        'apple-gray': '#8E8E93',
+                        'apple-dark': '#1C1C1E',
+                        'apple-light': '#F2F2F7'
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Custom CSS -->
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #007AFF 0%, #5856D6 100%);
+        }
+        .article-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .article-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+        .nav-link {
+            position: relative;
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: #007AFF;
+            transition: width 0.3s ease;
+        }
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        .guide-badge {
+            background: linear-gradient(135deg, #007AFF 0%, #5856D6 100%);
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 1rem;
+            font-size: 0.875rem;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900 font-sans">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="/" class="text-2xl font-bold text-apple-blue">Fire Emblem Shadows</a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="/" class="nav-link text-gray-700 hover:text-apple-blue">Home</a>
+                    <a href="/reviews" class="nav-link text-gray-700 hover:text-apple-blue">Reviews</a>
+                    <a href="/guides" class="nav-link text-apple-blue font-semibold">Guides</a>
+                    <a href="/news" class="nav-link text-gray-700 hover:text-apple-blue">News</a>
+                    <a href="/news" class="nav-link text-gray-700 hover:text-apple-blue">About</a>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-gray-700 hover:text-apple-blue">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6">Strategy Guides</h1>
+            <p class="text-xl text-blue-100 mb-4">Master Every Aspect of Fire Emblem Shadows</p>
+            <div class="flex items-center justify-center space-x-6 text-blue-100">
+                <span>Expert Strategies</span>
+                <span>•</span>
+                <span>Character Builds</span>
+                <span>•</span>
+                <span>Battle Tactics</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Guide -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Featured Guide</h2>
+                <p class="text-xl text-gray-600">Essential strategies for mastering Fire Emblem Shadows</p>
+            </div>
+            
+            <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200">
+                <div class="grid md:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500&h=400&fit=crop" alt="Character Building Guide" class="w-full h-80 object-cover rounded-lg">
+                    </div>
+                    <div>
+                        <div class="flex items-center mb-4">
+                            <span class="guide-badge">Essential</span>
+                            <span class="ml-2 text-gray-500 text-sm">15 min read</span>
+                        </div>
+                        <h3 class="text-3xl font-bold mb-4">Complete Character Building Guide</h3>
+                        <p class="text-gray-600 mb-6">Learn how to optimize your heroes with the best skill combinations, stat distributions, and equipment choices for maximum effectiveness in combat.</p>
+                        <div class="space-y-2 mb-6">
+                            <div class="flex items-center text-sm text-gray-600">
+                                <svg class="w-4 h-4 text-apple-blue mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                </svg>
+                                Stat optimization strategies
+                            </div>
+                            <div class="flex items-center text-sm text-gray-600">
+                                <svg class="w-4 h-4 text-apple-blue mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                </svg>
+                                Skill inheritance system
+                            </div>
+                            <div class="flex items-center text-sm text-gray-600">
+                                <svg class="w-4 h-4 text-apple-blue mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                </svg>
+                                Equipment optimization
+                            </div>
+                        </div>
+                        <a href="/guides/character-building-guide" class="bg-apple-blue text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-600 transition-colors">Read Guide</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guide Categories -->
+    <section class="py-16 bg-apple-light">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Guide Categories</h2>
+                <p class="text-xl text-gray-600">Comprehensive strategies for every aspect of the game</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="article-card bg-white rounded-xl p-6 shadow-lg">
+                    <div class="w-16 h-16 bg-apple-blue rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Character Building</h3>
+                    <p class="text-gray-600 mb-4">Master character optimization with detailed stat analysis, skill combinations, and build recommendations for every class.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="guide-badge">Stats</span>
+                        <span class="guide-badge">Skills</span>
+                        <span class="guide-badge">Equipment</span>
+                    </div>
+                    <a href="/guides/character-building-guide" class="text-apple-blue font-semibold hover:underline">View Guide →</a>
+                </div>
+
+                <div class="article-card bg-white rounded-xl p-6 shadow-lg">
+                    <div class="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Battle Strategies</h3>
+                    <p class="text-gray-600 mb-4">Learn advanced combat tactics, positioning strategies, and weapon triangle mastery for tactical supremacy.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="guide-badge">Combat</span>
+                        <span class="guide-badge">Positioning</span>
+                        <span class="guide-badge">Tactics</span>
+                    </div>
+                    <a href="/guides" class="text-apple-blue font-semibold hover:underline">Coming Soon →</a>
+                </div>
+
+                <div class="article-card bg-white rounded-xl p-6 shadow-lg">
+                    <div class="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Team Composition</h3>
+                    <p class="text-gray-600 mb-4">Build the perfect team with balanced unit types, synergy strategies, and meta team compositions.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="guide-badge">Synergy</span>
+                        <span class="guide-badge">Balance</span>
+                        <span class="guide-badge">Meta</span>
+                    </div>
+                    <a href="/guides" class="text-apple-blue font-semibold hover:underline">Coming Soon →</a>
+                </div>
+
+                <div class="article-card bg-white rounded-xl p-6 shadow-lg">
+                    <div class="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Resource Management</h3>
+                    <p class="text-gray-600 mb-4">Optimize your in-game resources, currency management, and progression strategies for maximum efficiency.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="guide-badge">Currency</span>
+                        <span class="guide-badge">Resources</span>
+                        <span class="guide-badge">Progression</span>
+                    </div>
+                    <a href="/guides" class="text-apple-blue font-semibold hover:underline">Coming Soon →</a>
+                </div>
+
+                <div class="article-card bg-white rounded-xl p-6 shadow-lg">
+                    <div class="w-16 h-16 bg-red-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Beginner's Guide</h3>
+                    <p class="text-gray-600 mb-4">Start your journey right with essential tips, basic mechanics, and progression paths for new players.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="guide-badge">Basics</span>
+                        <span class="guide-badge">Tips</span>
+                        <span class="guide-badge">Progression</span>
+                    </div>
+                    <a href="/guides" class="text-apple-blue font-semibold hover:underline">Coming Soon →</a>
+                </div>
+
+                <div class="article-card bg-white rounded-xl p-6 shadow-lg">
+                    <div class="w-16 h-16 bg-indigo-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Advanced Tactics</h3>
+                    <p class="text-gray-600 mb-4">Master advanced strategies, competitive play, and high-level optimization techniques.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="guide-badge">Advanced</span>
+                        <span class="guide-badge">Competitive</span>
+                        <span class="guide-badge">Optimization</span>
+                    </div>
+                    <a href="/guides" class="text-apple-blue font-semibold hover:underline">Coming Soon →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coming Soon -->
+    <section class="py-16">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-gray-900 mb-4">More Guides Coming Soon</h2>
+            <p class="text-xl text-gray-600 mb-8">We're constantly expanding our guide collection. Upcoming guides include:</p>
+            
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h3 class="text-lg font-bold mb-2">Character Tier Lists</h3>
+                    <p class="text-gray-600 text-sm">Comprehensive rankings and analysis of all characters</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h3 class="text-lg font-bold mb-2">Event Strategies</h3>
+                    <p class="text-gray-600 text-sm">Special event guides and reward optimization</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h3 class="text-lg font-bold mb-2">Arena Strategies</h3>
+                    <p class="text-gray-600 text-sm">PvP combat guides and ranking strategies</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <h3 class="text-lg font-bold mb-2">Story Walkthrough</h3>
+                    <p class="text-gray-600 text-sm">Complete story mode guide with optimal paths</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-apple-dark text-white py-12 mt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Fire Emblem Shadows</h3>
+                    <p class="text-gray-400">Your ultimate destination for Fire Emblem Shadows guides, reviews, and community discussions.</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-4">Content</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="/reviews" class="hover:text-white transition-colors">Game Reviews</a></li>
+                        <li><a href="/guides" class="hover:text-white transition-colors">Strategy Guides</a></li>
+                        <li><a href="/news" class="hover:text-white transition-colors">Latest News</a></li>
+                        <li><a href="/guides" class="hover:text-white transition-colors">Character Database</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-4">Community</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="/news" class="hover:text-white transition-colors">Discussion Forums</a></li>
+                        <li><a href="/news" class="hover:text-white transition-colors">Tournaments</a></li>
+                        <li><a href="/news" class="hover:text-white transition-colors">Leaderboards</a></li>
+                        <li><a href="/news" class="hover:text-white transition-colors">Community Events</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-4">Support</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="/news" class="hover:text-white transition-colors">Contact Us</a></li>
+                        <li><a href="/news" class="hover:text-white transition-colors">Privacy Policy</a></li>
+                        <li><a href="/news" class="hover:text-white transition-colors">Terms of Service</a></li>
+                        <li><a href="/news" class="hover:text-white transition-colors">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Fire Emblem Shadows Community. All rights reserved. This site is not affiliated with Nintendo or Intelligent Systems.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+</body>
+</html>
