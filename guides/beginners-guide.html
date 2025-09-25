@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Beginner's Guide - Fire Emblem Shadows | fireemblemshadows.org</title>
+    <meta name="description" content="Start your Fire Emblem Shadows journey with our comprehensive beginner's guide. Learn basic mechanics, progression tips, and essential strategies for new players.">
+    <meta name="keywords" content="Fire Emblem Shadows beginner guide, new player guide, basic mechanics, progression tips, mobile strategy RPG tutorial">
+    <meta name="author" content="Fire Emblem Shadows Community">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://fireemblemshadows.org/guides/beginners-guide">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Complete Beginner's Guide - Fire Emblem Shadows">
+    <meta property="og:description" content="Start your Fire Emblem Shadows journey with our comprehensive beginner's guide. Learn basic mechanics and essential strategies.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://fireemblemshadows.org/guides/beginners-guide">
+    <meta property="og:image" content="https://fireemblemshadows.org/images/beginners-guide-og.jpg">
+    
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7208260866318884" crossorigin="anonymous"></script>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'apple-blue': '#007AFF',
+                        'apple-gray': '#8E8E93',
+                        'apple-dark': '#1C1C1E',
+                        'apple-light': '#F2F2F7'
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Custom CSS -->
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #007AFF 0%, #5856D6 100%);
+        }
+        .article-content {
+            line-height: 1.8;
+        }
+        .article-content h2 {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        .article-content h3 {
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+        .article-content p {
+            margin-bottom: 1rem;
+        }
+        .article-content ul, .article-content ol {
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+        }
+        .article-content li {
+            margin-bottom: 0.5rem;
+        }
+        .nav-link {
+            position: relative;
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: #007AFF;
+            transition: width 0.3s ease;
+        }
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        .tip-card {
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+            border-left: 4px solid #007AFF;
+        }
+        .warning-card {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            border-left: 4px solid #F59E0B;
+        }
+        .success-card {
+            background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+            border-left: 4px solid #10B981;
+        }
+        .mechanic-badge {
+            background: linear-gradient(135deg, #007AFF 0%, #5856D6 100%);
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 1rem;
+            font-size: 0.875rem;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900 font-sans">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="/" class="text-2xl font-bold text-apple-blue">Fire Emblem Shadows</a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="/" class="nav-link text-gray-700 hover:text-apple-blue">Home</a>
+                    <a href="/reviews" class="nav-link text-gray-700 hover:text-apple-blue">Reviews</a>
+                    <a href="/guides" class="nav-link text-apple-blue font-semibold">Guides</a>
+                    <a href="/news" class="nav-link text-gray-700 hover:text-apple-blue">News</a>
+                    <a href="/news" class="nav-link text-gray-700 hover:text-apple-blue">About</a>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-gray-700 hover:text-apple-blue">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Article Header -->
+    <header class="hero-gradient text-white py-16">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">Complete Beginner's Guide</h1>
+                <p class="text-xl text-blue-100 mb-4">Start Your Journey in Fire Emblem Shadows</p>
+                <div class="flex items-center justify-center space-x-6 text-blue-100">
+                    <span>By Strategy Expert</span>
+                    <span>•</span>
+                    <span>September 2025</span>
+                    <span>•</span>
+                    <span>20 min read</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Article Content -->
+    <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <article class="article-content prose prose-lg max-w-none">
+            <div class="mb-8">
+                <img src="https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=800&h=400&fit=crop" alt="Fire Emblem Shadows Beginner Guide" class="w-full h-96 object-cover rounded-xl mb-6">
+                <p class="text-gray-600 text-lg leading-relaxed">
+                    Welcome to Fire Emblem Shadows! This comprehensive beginner's guide will help you understand the core mechanics, progression systems, and essential strategies to start your journey successfully. Whether you're new to the Fire Emblem series or mobile strategy games, this guide covers everything you need to know.
+                </p>
+            </div>
+
+            <h2>Getting Started: First Steps</h2>
+            <p>
+                When you first launch Fire Emblem Shadows, you'll be guided through a tutorial that introduces the basic mechanics. Here's what to expect and how to make the most of your early game experience.
+            </p>
+
+            <div class="tip-card p-6 rounded-xl my-6">
+                <h3 class="text-lg font-bold mb-2">Essential First Steps</h3>
+                <ol class="space-y-2">
+                    <li><strong>Complete the Tutorial:</strong> Don't skip the tutorial - it teaches crucial mechanics</li>
+                    <li><strong>Create Nintendo Account:</strong> Link your account for cloud saves and bonuses</li>
+                    <li><strong>Claim Welcome Rewards:</strong> Check your mailbox for free orbs and items</li>
+                    <li><strong>Explore the Interface:</strong> Familiarize yourself with the main menu and navigation</li>
+                    <li><strong>Start Story Mode:</strong> Begin with the main story for character progression</li>
+                </ol>
+            </div>
+
+            <h2>Understanding Core Mechanics</h2>
+            <p>
+                Fire Emblem Shadows combines traditional Fire Emblem tactical combat with mobile-friendly mechanics. Here are the fundamental systems you need to understand:
+            </p>
+
+            <h3>Combat System</h3>
+            <div class="bg-white border border-gray-200 rounded-xl p-6 my-6">
+                <h4 class="font-bold mb-3">Turn-Based Tactical Combat</h4>
+                <ul class="space-y-2">
+                    <li><strong>Grid Movement:</strong> Move units on a tactical grid</li>
+                    <li><strong>Weapon Triangle:</strong> Sword beats Axe, Axe beats Lance, Lance beats Sword</li>
+                    <li><strong>Range Combat:</strong> Archers and mages can attack from distance</li>
+                    <li><strong>Terrain Effects:</strong> Different tiles provide defensive bonuses</li>
+                    <li><strong>Critical Hits:</strong> Chance-based powerful attacks</li>
+                </ul>
+            </div>
+
+            <h3>Character Stats</h3>
+            <div class="grid md:grid-cols-2 gap-6 my-6">
+                <div class="bg-white border border-gray-200 rounded-lg p-4">
+                    <h4 class="font-bold mb-3">Physical Stats</h4>
+                    <ul class="space-y-1 text-sm">
+                        <li>• <strong>HP:</strong> Health points</li>
+                        <li>• <strong>Attack:</strong> Physical damage</li>
+                        <li>• <strong>Defense:</strong> Physical resistance</li>
+                        <li>• <strong>Speed:</strong> Hit rate and avoid</li>
+                    </ul>
+                </div>
+                <div class="bg-white border border-gray-200 rounded-lg p-4">
+                    <h4 class="font-bold mb-3">Magical Stats</h4>
+                    <ul class="space-y-1 text-sm">
+                        <li>• <strong>Magic:</strong> Magical damage</li>
+                        <li>• <strong>Resistance:</strong> Magical resistance</li>
+                        <li>• <strong>Skill:</strong> Critical hit rate</li>
+                        <li>• <strong>Luck:</strong> Critical avoid</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h2>Character Classes and Roles</h2>
+            <p>
+                Understanding character classes is crucial for building effective teams. Each class has unique strengths and weaknesses:
+            </p>
+
+            <div class="grid md:grid-cols-3 gap-4 my-6">
+                <div class="bg-white border border-gray-200 rounded-lg p-4">
+                    <h4 class="font-bold mb-2">Melee Classes</h4>
+                    <div class="space-y-2">
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm">Sword Master</span>
+                            <span class="mechanic-badge">High Speed</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm">General</span>
+                            <span class="mechanic-badge">High Defense</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm">Berserker</span>
+                            <span class="mechanic-badge">High Attack</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white border border-gray-200 rounded-lg p-4">
+                    <h4 class="font-bold mb-2">Ranged Classes</h4>
+                    <div class="space-y-2">
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm">Sniper</span>
+                            <span class="mechanic-badge">Long Range</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm">Sage</span>
+                            <span class="mechanic-badge">Magic Damage</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm">Bishop</span>
+                            <span class="mechanic-badge">Healing</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white border border-gray-200 rounded-lg p-4">
+                    <h4 class="font-bold mb-2">Flying Classes</h4>
+                    <div class="space-y-2">
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm">Pegasus Knight</span>
+                            <span class="mechanic-badge">High Mobility</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm">Wyvern Rider</span>
+                            <span class="mechanic-badge">Tanky Flyer</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm">Falcon Knight</span>
+                            <span class="mechanic-badge">Balanced</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Progression Systems</h2>
+            <p>
+                Fire Emblem Shadows features multiple progression systems that work together to strengthen your characters:
+            </p>
+
+            <h3>Leveling and Experience</h3>
+            <div class="success-card p-6 rounded-xl my-6">
+                <h4 class="font-bold mb-2">Character Progression</h4>
+                <ul class="space-y-1">
+                    <li>• <strong>Level Up:</strong> Gain stats and learn new skills</li>
+                    <li>• <strong>Class Change:</strong> Promote to advanced classes</li>
+                    <li>• <strong>Skill Learning:</strong> Unlock powerful abilities</li>
+                    <li>• <strong>Weapon Proficiency:</strong> Use weapons more effectively</li>
+                </ul>
+            </div>
+
+            <h3>Resource Management</h3>
+            <div class="grid md:grid-cols-2 gap-6 my-6">
+                <div class="bg-white border border-gray-200 rounded-lg p-4">
+                    <h4 class="font-bold mb-3">Currency Types</h4>
+                    <ul class="space-y-1 text-sm">
+                        <li>• <strong>Orbs:</strong> Premium currency for summoning</li>
+                        <li>• <strong>Feathers:</strong> Promote characters</li>
+                        <li>• <strong>Coins:</strong> Upgrade weapons and skills</li>
+                        <li>• <strong>Stamina:</strong> Battle energy system</li>
+                    </ul>
+                </div>
+                <div class="bg-white border border-gray-200 rounded-lg p-4">
+                    <h4 class="font-bold mb-3">Daily Activities</h4>
+                    <ul class="space-y-1 text-sm">
+                        <li>• <strong>Daily Quests:</strong> Complete for rewards</li>
+                        <li>• <strong>Training Tower:</strong> Level up characters</li>
+                        <li>• <strong>Arena:</strong> PvP battles for ranking</li>
+                        <li>• <strong>Special Maps:</strong> Limited-time content</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h2>Team Building Basics</h2>
+            <p>
+                Building a balanced team is essential for success in Fire Emblem Shadows. Here's how to create effective team compositions:
+            </p>
+
+            <div class="warning-card p-6 rounded-xl my-6">
+                <h3 class="text-lg font-bold mb-2">Team Composition Tips</h3>
+                <div class="grid md:grid-cols-2 gap-4">
+                    <div>
+                        <h4 class="font-bold mb-2">Essential Roles</h4>
+                        <ul class="space-y-1 text-sm">
+                            <li>• 1-2 Tank units (high defense)</li>
+                            <li>• 2-3 Damage dealers</li>
+                            <li>• 1 Support unit (healer/buffer)</li>
+                            <li>• 1 Flexible unit</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-bold mb-2">Balance Considerations</h4>
+                        <ul class="space-y-1 text-sm">
+                            <li>• Mix of physical and magical damage</li>
+                            <li>• Different movement types</li>
+                            <li>• Cover all weapon types</li>
+                            <li>• Consider terrain advantages</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Early Game Strategy</h2>
+            <p>
+                Your first few weeks in Fire Emblem Shadows are crucial for establishing a strong foundation. Follow these strategies for optimal progression:
+            </p>
+
+            <h3>Priority Activities</h3>
+            <div class="bg-white border border-gray-200 rounded-xl p-6 my-6">
+                <h4 class="font-bold mb-3">Daily Priority List</h4>
+                <ol class="space-y-2">
+                    <li><strong>Complete Daily Quests:</strong> Essential for steady progression</li>
+                    <li><strong>Story Mode Progress:</strong> Unlock new content and characters</li>
+                    <li><strong>Training Tower:</strong> Level up your main team</li>
+                    <li><strong>Arena Battles:</strong> Earn feathers and ranking rewards</li>
+                    <li><strong>Special Events:</strong> Participate in limited-time content</li>
+                </ol>
+            </div>
+
+            <h3>Resource Allocation</h3>
+            <div class="tip-card p-6 rounded-xl my-6">
+                <h4 class="font-bold mb-2">Smart Resource Management</h4>
+                <ul class="space-y-1">
+                    <li>• <strong>Focus on 4-5 core characters</strong> rather than spreading resources</li>
+                    <li>• <strong>Save orbs for special banners</strong> with powerful characters</li>
+                    <li>• <strong>Use feathers wisely</strong> - prioritize 5-star promotions</li>
+                    <li>• <strong>Complete story chapters</strong> for free orbs and characters</li>
+                </ul>
+            </div>
+
+            <h2>Common Beginner Mistakes</h2>
+            <p>
+                Avoid these common pitfalls that new players often encounter:
+            </p>
+
+            <div class="bg-red-50 border-l-4 border-red-500 p-6 my-8">
+                <h3 class="text-lg font-bold mb-2">Mistakes to Avoid</h3>
+                <div class="space-y-3">
+                    <div>
+                        <h4 class="font-bold">Spreading Resources Too Thin</h4>
+                        <p class="text-sm text-gray-600">Don't try to level up every character at once. Focus on building a strong core team first.</p>
+                    </div>
+                    <div>
+                        <h4 class="font-bold">Ignoring Weapon Triangle</h4>
+                        <p class="text-sm text-gray-600">Always consider weapon advantages when positioning units. This can make or break battles.</p>
+                    </div>
+                    <div>
+                        <h4 class="font-bold">Skipping Tutorial Content</h4>
+                        <p class="text-sm text-gray-600">The tutorial teaches essential mechanics. Take time to understand each system.</p>
+                    </div>
+                    <div>
+                        <h4 class="font-bold">Wasting Premium Currency</h4>
+                        <p class="text-sm text-gray-600">Save orbs for special banners rather than spending them immediately on basic summons.</p>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Advanced Tips for Growth</h2>
+            <p>
+                Once you've mastered the basics, these advanced strategies will help you progress faster:
+            </p>
+
+            <div class="grid md:grid-cols-2 gap-6 my-6">
+                <div class="bg-white border border-gray-200 rounded-lg p-4">
+                    <h4 class="font-bold mb-3">Skill Inheritance</h4>
+                    <ul class="space-y-1 text-sm">
+                        <li>• Learn which skills work best together</li>
+                        <li>• Plan skill inheritance carefully</li>
+                        <li>• Focus on skills that complement character roles</li>
+                        <li>• Don't waste rare skills on temporary characters</li>
+                    </ul>
+                </div>
+                <div class="bg-white border border-gray-200 rounded-lg p-4">
+                    <h4 class="font-bold mb-3">Team Synergy</h4>
+                    <ul class="space-y-1 text-sm">
+                        <li>• Build teams with complementary abilities</li>
+                        <li>• Consider support relationships</li>
+                        <li>• Plan for different battle scenarios</li>
+                        <li>• Adapt team composition to content</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h2>Community and Resources</h2>
+            <p>
+                Join the Fire Emblem Shadows community to learn from experienced players and stay updated with the latest strategies:
+            </p>
+
+            <div class="success-card p-6 rounded-xl my-6">
+                <h3 class="text-lg font-bold mb-2">Community Resources</h3>
+                <ul class="space-y-1">
+                    <li>• <strong>Official Forums:</strong> Nintendo's official community discussions</li>
+                    <li>• <strong>Reddit Communities:</strong> r/FireEmblemHeroes for strategy discussions</li>
+                    <li>• <strong>YouTube Guides:</strong> Video tutorials and character showcases</li>
+                    <li>• <strong>Discord Servers:</strong> Real-time community chat and advice</li>
+                    <li>• <strong>Fan Websites:</strong> Comprehensive databases and tools</li>
+                </ul>
+            </div>
+
+            <h2>Conclusion</h2>
+            <p>
+                Fire Emblem Shadows offers a deep and rewarding strategic experience. By following this beginner's guide, you'll have a solid foundation to build upon as you progress through the game.
+            </p>
+
+            <p>
+                Remember that mastery comes with practice. Don't be discouraged by early challenges - every expert player started as a beginner. Focus on learning the fundamentals, building a strong team, and enjoying the strategic depth that makes Fire Emblem Shadows such a compelling mobile game.
+            </p>
+
+            <div class="bg-apple-light p-6 rounded-xl my-8">
+                <h3 class="text-lg font-bold mb-2">Next Steps</h3>
+                <p class="mb-4">Ready to dive deeper? Check out these advanced guides:</p>
+                <div class="flex flex-wrap gap-2">
+                    <a href="/guides/character-building-guide" class="mechanic-badge">Character Building Guide</a>
+                    <a href="/guides/system-requirements" class="mechanic-badge">System Requirements</a>
+                    <a href="/reviews" class="mechanic-badge">Game Reviews</a>
+                </div>
+            </div>
+        </article>
+
+        <!-- Comments Section -->
+        <section class="mt-16 border-t border-gray-200 pt-8">
+            <h3 class="text-2xl font-bold mb-6">Community Discussion</h3>
+            <div class="bg-apple-light p-6 rounded-xl">
+                <p class="text-gray-600 mb-4">Share your beginner experience and ask questions about getting started.</p>
+                <div class="space-y-4">
+                    <div class="bg-white p-4 rounded-lg">
+                        <div class="flex items-center mb-2">
+                            <div class="w-8 h-8 bg-apple-blue rounded-full flex items-center justify-center text-white font-bold mr-3">N</div>
+                            <div>
+                                <span class="font-semibold">NewPlayer2025</span>
+                                <span class="text-gray-500 text-sm ml-2">1 hour ago</span>
+                            </div>
+                        </div>
+                        <p class="text-gray-700">This guide is amazing! I was completely lost before reading this. The team composition tips especially helped me understand how to build a balanced team. Thank you!</p>
+                    </div>
+                    
+                    <div class="bg-white p-4 rounded-lg">
+                        <div class="flex items-center mb-2">
+                            <div class="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center text-white font-bold mr-3">S</div>
+                            <div>
+                                <span class="font-semibold">StrategyNewbie</span>
+                                <span class="text-gray-500 text-sm ml-2">3 hours ago</span>
+                            </div>
+                        </div>
+                        <p class="text-gray-700">The weapon triangle explanation was so helpful! I was wondering why my sword users were struggling against lance enemies. Now I understand the mechanics much better.</p>
+                    </div>
+                </div>
+                
+                <div class="mt-6">
+                    <textarea class="w-full p-4 border border-gray-300 rounded-lg resize-none" rows="4" placeholder="Share your beginner experience or ask questions..."></textarea>
+                    <button class="mt-3 bg-apple-blue text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-600 transition-colors">Post Comment</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-apple-dark text-white py-12 mt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Fire Emblem Shadows</h3>
+                    <p class="text-gray-400">Your ultimate destination for Fire Emblem Shadows guides, reviews, and community discussions.</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-4">Content</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="/reviews" class="hover:text-white transition-colors">Game Reviews</a></li>
+                        <li><a href="/guides" class="hover:text-white transition-colors">Strategy Guides</a></li>
+                        <li><a href="/news" class="hover:text-white transition-colors">Latest News</a></li>
+                        <li><a href="/guides" class="hover:text-white transition-colors">Character Database</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-4">Community</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="/news" class="hover:text-white transition-colors">Discussion Forums</a></li>
+                        <li><a href="/news" class="hover:text-white transition-colors">Tournaments</a></li>
+                        <li><a href="/news" class="hover:text-white transition-colors">Leaderboards</a></li>
+                        <li><a href="/news" class="hover:text-white transition-colors">Community Events</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-4">Support</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="/news" class="hover:text-white transition-colors">Contact Us</a></li>
+                        <li><a href="/news" class="hover:text-white transition-colors">Privacy Policy</a></li>
+                        <li><a href="/news" class="hover:text-white transition-colors">Terms of Service</a></li>
+                        <li><a href="/news" class="hover:text-white transition-colors">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Fire Emblem Shadows Community. All rights reserved. This site is not affiliated with Nintendo or Intelligent Systems.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+</body>
+</html>
