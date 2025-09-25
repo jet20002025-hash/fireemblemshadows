@@ -1,0 +1,30 @@
+User-agent: *
+Allow: /
+
+# Allow all search engines to crawl all content
+Allow: /reviews/
+Allow: /guides/
+Allow: /news/
+Allow: /characters/
+Allow: /forums/
+Allow: /tournaments/
+Allow: /leaderboards/
+Allow: /events/
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /*.log$
+Disallow: /*.tmp$
+
+# Allow important files
+Allow: /sitemap.xml
+Allow: /robots.txt
+Allow: /ads.txt
+
+# Crawl delay (optional)
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://fireemblemshadows.org/sitemap.xml

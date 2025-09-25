@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Character Building Guide - Fire Emblem Shadows | fireemblemshadows.org</title>
+    <meta name="description" content="Master character building in Fire Emblem Shadows with our comprehensive guide. Learn optimal skill combinations, stat distributions, and equipment choices for maximum effectiveness.">
+    <meta name="keywords" content="Fire Emblem Shadows character guide, character building, skill combinations, stat optimization, equipment guide, mobile strategy">
+    <meta name="author" content="Fire Emblem Shadows Community">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://fireemblemshadows.org/guides/character-building-guide">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Complete Character Building Guide - Fire Emblem Shadows">
+    <meta property="og:description" content="Master character building in Fire Emblem Shadows with our comprehensive guide. Learn optimal skill combinations, stat distributions, and equipment choices.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://fireemblemshadows.org/guides/character-building-guide">
+    <meta property="og:image" content="https://fireemblemshadows.org/images/character-building-guide-og.jpg">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Complete Character Building Guide - Fire Emblem Shadows">
+    <meta name="twitter:description" content="Master character building in Fire Emblem Shadows with our comprehensive guide. Learn optimal skill combinations, stat distributions, and equipment choices.">
+    <meta name="twitter:image" content="https://fireemblemshadows.org/images/character-building-guide-og.jpg">
+    
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7208260866318884" crossorigin="anonymous"></script>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'apple-blue': '#007AFF',
+                        'apple-gray': '#8E8E93',
+                        'apple-dark': '#1C1C1E',
+                        'apple-light': '#F2F2F7'
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Custom CSS -->
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #007AFF 0%, #5856D6 100%);
+        }
+        .article-content {
+            line-height: 1.8;
+        }
+        .article-content h2 {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        .article-content h3 {
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+        .article-content p {
+            margin-bottom: 1rem;
+        }
+        .article-content ul, .article-content ol {
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+        }
+        .article-content li {
+            margin-bottom: 0.5rem;
+        }
+        .nav-link {
+            position: relative;
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: #007AFF;
+            transition: width 0.3s ease;
+        }
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        .stat-card {
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+            border-left: 4px solid #007AFF;
+        }
+        .skill-badge {
+            background: linear-gradient(135deg, #007AFF 0%, #5856D6 100%);
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 1rem;
+            font-size: 0.875rem;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900 font-sans">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="/" class="text-2xl font-bold text-apple-blue">Fire Emblem Shadows</a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="/" class="nav-link text-gray-700 hover:text-apple-blue">Home</a>
+                    <a href="/reviews" class="nav-link text-gray-700 hover:text-apple-blue">Reviews</a>
+                    <a href="/guides" class="nav-link text-apple-blue font-semibold">Guides</a>
+                    <a href="/news" class="nav-link text-gray-700 hover:text-apple-blue">News</a>
+                    <a href="/about" class="nav-link text-gray-700 hover:text-apple-blue">About</a>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-gray-700 hover:text-apple-blue">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Article Header -->
+    <header class="hero-gradient text-white py-16">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">Complete Character Building Guide</h1>
+                <p class="text-xl text-blue-100 mb-4">Master the Art of Character Optimization</p>
+                <div class="flex items-center justify-center space-x-6 text-blue-100">
+                    <span>By Strategy Expert</span>
+                    <span>•</span>
+                    <span>December 2024</span>
+                    <span>•</span>
+                    <span>15 min read</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Article Content -->
+    <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <article class="article-content prose prose-lg max-w-none">
+            <div class="mb-8">
+                <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=400&fit=crop" alt="Character Building in Fire Emblem Shadows" class="w-full h-96 object-cover rounded-xl mb-6">
+                <p class="text-gray-600 text-lg leading-relaxed">
+                    Building effective characters in Fire Emblem Shadows requires understanding stat growth patterns, skill inheritance mechanics, and optimal equipment choices. This comprehensive guide covers everything you need to create powerful, versatile units for any situation.
+                </p>
+            </div>
+
+            <h2>Understanding Character Stats</h2>
+            <p>
+                Every character in Fire Emblem Shadows has six primary stats that determine their effectiveness in combat. Understanding how these stats interact is crucial for optimal character building.
+            </p>
+
+            <div class="grid md:grid-cols-2 gap-6 my-8">
+                <div class="stat-card p-6 rounded-xl">
+                    <h3 class="text-xl font-bold mb-4 text-apple-blue">Physical Stats</h3>
+                    <ul class="space-y-2">
+                        <li><strong>HP:</strong> Determines survivability and tanking potential</li>
+                        <li><strong>Attack:</strong> Physical damage output for melee and bow units</li>
+                        <li><strong>Defense:</strong> Reduces incoming physical damage</li>
+                        <li><strong>Speed:</strong> Affects hit rate, avoid, and critical chance</li>
+                    </ul>
+                </div>
+                
+                <div class="stat-card p-6 rounded-xl">
+                    <h3 class="text-xl font-bold mb-4 text-apple-blue">Magical Stats</h3>
+                    <ul class="space-y-2">
+                        <li><strong>Magic:</strong> Magical damage output for tome and staff users</li>
+                        <li><strong>Resistance:</strong> Reduces incoming magical damage</li>
+                        <li><strong>Luck:</strong> Affects critical avoid and item drop rates</li>
+                        <li><strong>Skill:</strong> Improves hit rate and critical chance</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h2>Character Class Optimization</h2>
+            <p>
+                Each character class in Fire Emblem Shadows has unique stat growth patterns and skill access. Choosing the right class for your playstyle and team composition is essential for success.
+            </p>
+
+            <h3>Melee Classes</h3>
+            <div class="bg-apple-light p-6 rounded-xl my-6">
+                <h4 class="font-bold mb-3">Sword Masters</h4>
+                <p class="mb-3">High-speed, high-skill units perfect for critical hit builds and player phase combat.</p>
+                <div class="flex flex-wrap gap-2 mb-3">
+                    <span class="skill-badge">Astra</span>
+                    <span class="skill-badge">Vantage</span>
+                    <span class="skill-badge">Desperation</span>
+                </div>
+                <p class="text-sm text-gray-600"><strong>Best Stats:</strong> Speed, Skill, Attack</p>
+            </div>
+
+            <div class="bg-apple-light p-6 rounded-xl my-6">
+                <h4 class="font-bold mb-3">Generals</h4>
+                <p class="mb-3">Defensive powerhouses with massive HP and Defense, ideal for enemy phase tanking.</p>
+                <div class="flex flex-wrap gap-2 mb-3">
+                    <span class="skill-badge">Pavise</span>
+                    <span class="skill-badge">Wary Fighter</span>
+                    <span class="skill-badge">Defense +3</span>
+                </div>
+                <p class="text-sm text-gray-600"><strong>Best Stats:</strong> HP, Defense, Resistance</p>
+            </div>
+
+            <h3>Ranged Classes</h3>
+            <div class="bg-apple-light p-6 rounded-xl my-6">
+                <h4 class="font-bold mb-3">Sages</h4>
+                <p class="mb-3">Magical damage dealers with access to powerful tome skills and healing capabilities.</p>
+                <div class="flex flex-wrap gap-2 mb-3">
+                    <span class="skill-badge">Magic +3</span>
+                    <span class="skill-badge">Resistance +3</span>
+                    <span class="skill-badge">Heal</span>
+                </div>
+                <p class="text-sm text-gray-600"><strong>Best Stats:</strong> Magic, Resistance, Speed</p>
+            </div>
+
+            <h2>Skill Inheritance System</h2>
+            <p>
+                The skill inheritance system allows you to customize characters by transferring skills from other units. This mechanic is crucial for creating specialized builds and optimizing team compositions.
+            </p>
+
+            <div class="bg-gradient-to-r from-green-50 to-blue-50 border-l-4 border-green-500 p-6 my-8">
+                <h3 class="text-lg font-bold mb-2">Skill Inheritance Tips</h3>
+                <ul class="space-y-1">
+                    <li>• <strong>Plan Ahead:</strong> Identify which skills complement your character's role</li>
+                    <li>• <strong>Consider SP Cost:</strong> Higher-tier skills require more SP to learn</li>
+                    <li>• <strong>Synergy Matters:</strong> Skills that work together create powerful combinations</li>
+                    <li>• <strong>Versatility:</strong> Build characters that can handle multiple situations</li>
+                </ul>
+            </div>
+
+            <h2>Optimal Build Examples</h2>
+            <p>
+                Here are some proven character builds that excel in different combat scenarios. These examples demonstrate how to combine stats, skills, and equipment for maximum effectiveness.
+            </p>
+
+            <h3>Player Phase Nuke Build</h3>
+            <div class="bg-white border border-gray-200 rounded-xl p-6 my-6">
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <h4 class="font-bold mb-3">Recommended Classes:</h4>
+                        <ul class="space-y-1 text-sm">
+                            <li>• Sword Master</li>
+                            <li>• Berserker</li>
+                            <li>• Sage</li>
+                        </ul>
+                        
+                        <h4 class="font-bold mb-3 mt-4">Key Skills:</h4>
+                        <ul class="space-y-1 text-sm">
+                            <li>• Death Blow</li>
+                            <li>• Swift Sparrow</li>
+                            <li>• Desperation</li>
+                            <li>• Moonbow</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-bold mb-3">Strategy:</h4>
+                        <p class="text-sm text-gray-600">
+                            This build focuses on dealing massive damage during player phase. Use high-attack weapons and skills that boost damage output. Perfect for eliminating high-priority targets quickly.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <h3>Enemy Phase Tank Build</h3>
+            <div class="bg-white border border-gray-200 rounded-xl p-6 my-6">
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <h4 class="font-bold mb-3">Recommended Classes:</h4>
+                        <ul class="space-y-1 text-sm">
+                            <li>• General</li>
+                            <li>• Great Knight</li>
+                            <li>• Bishop</li>
+                        </ul>
+                        
+                        <h4 class="font-bold mb-3 mt-4">Key Skills:</h4>
+                        <ul class="space-y-1 text-sm">
+                            <li>• Close Counter</li>
+                            <li>• Distant Counter</li>
+                            <li>• Quick Riposte</li>
+                            <li>• Bonfire</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-bold mb-3">Strategy:</h4>
+                        <p class="text-sm text-gray-600">
+                            This build creates units that can counter-attack from any range while taking minimal damage. Use defensive skills and high-durability weapons for maximum survivability.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Equipment Optimization</h2>
+            <p>
+                Choosing the right weapons and accessories can significantly impact your character's effectiveness. Understanding weapon types, refinement options, and accessory bonuses is crucial for optimization.
+            </p>
+
+            <h3>Weapon Refinement</h3>
+            <p>
+                Weapon refinement allows you to customize weapons with special effects and stat bonuses. Each refinement option provides unique benefits that can complement your character build.
+            </p>
+
+            <div class="grid md:grid-cols-3 gap-4 my-6">
+                <div class="bg-white border border-gray-200 rounded-lg p-4">
+                    <h4 class="font-bold mb-2">Effect Refinement</h4>
+                    <p class="text-sm text-gray-600">Adds special effects like healing, stat debuffs, or combat bonuses.</p>
+                </div>
+                <div class="bg-white border border-gray-200 rounded-lg p-4">
+                    <h4 class="font-bold mb-2">Stat Refinement</h4>
+                    <p class="text-sm text-gray-600">Provides permanent stat bonuses to specific attributes.</p>
+                </div>
+                <div class="bg-white border border-gray-200 rounded-lg p-4">
+                    <h4 class="font-bold mb-2">Special Refinement</h4>
+                    <p class="text-sm text-gray-600">Unlocks unique weapon abilities and enhanced combat effects.</p>
+                </div>
+            </div>
+
+            <h2>Team Composition Strategies</h2>
+            <p>
+                Building individual characters is only half the battle. Creating effective team compositions requires understanding how characters work together and cover each other's weaknesses.
+            </p>
+
+            <h3>Balanced Team Composition</h3>
+            <div class="bg-apple-light p-6 rounded-xl my-6">
+                <h4 class="font-bold mb-3">Recommended Team Structure:</h4>
+                <ul class="space-y-2">
+                    <li>• <strong>1-2 Tanks:</strong> High-defense units for enemy phase combat</li>
+                    <li>• <strong>2-3 Damage Dealers:</strong> High-attack units for player phase elimination</li>
+                    <li>• <strong>1-2 Support Units:</strong> Healers and buffers for team utility</li>
+                    <li>• <strong>1-2 Flexible Units:</strong> Versatile characters that can adapt to situations</li>
+                </ul>
+            </div>
+
+            <h2>Advanced Optimization Tips</h2>
+            <p>
+                Once you've mastered the basics, these advanced techniques will help you create truly exceptional character builds and team compositions.
+            </p>
+
+            <div class="bg-gradient-to-r from-purple-50 to-pink-50 border-l-4 border-purple-500 p-6 my-8">
+                <h3 class="text-lg font-bold mb-2">Pro Tips for Character Building</h3>
+                <ul class="space-y-1">
+                    <li>• <strong>Stat Boons/Banes:</strong> Choose characters with beneficial stat distributions</li>
+                    <li>• <strong>Skill Synergy:</strong> Combine skills that enhance each other's effects</li>
+                    <li>• <strong>Weapon Triangle:</strong> Ensure your team can handle all weapon types</li>
+                    <li>• <strong>Movement Types:</strong> Balance infantry, cavalry, and flying units</li>
+                    <li>• <strong>Support Relationships:</strong> Build characters that work well together</li>
+                </ul>
+            </div>
+
+            <h2>Common Mistakes to Avoid</h2>
+            <p>
+                Even experienced players can fall into traps when building characters. Here are the most common mistakes and how to avoid them.
+            </p>
+
+            <div class="bg-red-50 border-l-4 border-red-500 p-6 my-8">
+                <h3 class="text-lg font-bold mb-2">Character Building Mistakes</h3>
+                <ul class="space-y-1">
+                    <li>• <strong>Ignoring Stat Caps:</strong> Don't waste resources on stats that are already maxed</li>
+                    <li>• <strong>Poor Skill Selection:</strong> Choose skills that match your character's role</li>
+                    <li>• <strong>Equipment Mismatch:</strong> Use weapons that complement your character's strengths</li>
+                    <li>• <strong>Lack of Versatility:</strong> Build characters that can handle multiple situations</li>
+                    <li>• <strong>Ignoring Team Synergy:</strong> Consider how characters work together</li>
+                </ul>
+            </div>
+
+            <h2>Conclusion</h2>
+            <p>
+                Mastering character building in Fire Emblem Shadows requires understanding stat mechanics, skill inheritance, and team composition. By following this guide and experimenting with different builds, you'll be able to create powerful, versatile characters that excel in any combat situation.
+            </p>
+
+            <p>
+                Remember that character building is an ongoing process. As you acquire new skills, weapons, and characters, continue to refine your builds and adapt your strategies to stay competitive in the ever-evolving meta.
+            </p>
+        </article>
+
+        <!-- Comments Section -->
+        <section class="mt-16 border-t border-gray-200 pt-8">
+            <h3 class="text-2xl font-bold mb-6">Community Discussion</h3>
+            <div class="bg-apple-light p-6 rounded-xl">
+                <p class="text-gray-600 mb-4">Share your character builds and strategies with fellow players.</p>
+                <div class="space-y-4">
+                    <div class="bg-white p-4 rounded-lg">
+                        <div class="flex items-center mb-2">
+                            <div class="w-8 h-8 bg-apple-blue rounded-full flex items-center justify-center text-white font-bold mr-3">S</div>
+                            <div>
+                                <span class="font-semibold">StrategyMaster</span>
+                                <span class="text-gray-500 text-sm ml-2">1 hour ago</span>
+                            </div>
+                        </div>
+                        <p class="text-gray-700">Great guide! The enemy phase tank build has been working wonders for me in arena battles. Quick Riposte is definitely a game-changer.</p>
+                    </div>
+                    
+                    <div class="bg-white p-4 rounded-lg">
+                        <div class="flex items-center mb-2">
+                            <div class="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center text-white font-bold mr-3">T</div>
+                            <div>
+                                <span class="font-semibold">TeamBuilder</span>
+                                <span class="text-gray-500 text-sm ml-2">3 hours ago</span>
+                            </div>
+                        </div>
+                        <p class="text-gray-700">The team composition section is really helpful. I've been struggling with balancing my units, but this gives me a clear framework to work with.</p>
+                    </div>
+                </div>
+                
+                <div class="mt-6">
+                    <textarea class="w-full p-4 border border-gray-300 rounded-lg resize-none" rows="4" placeholder="Share your character building tips and strategies..."></textarea>
+                    <button class="mt-3 bg-apple-blue text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-600 transition-colors">Post Comment</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-apple-dark text-white py-12 mt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Fire Emblem Shadows</h3>
+                    <p class="text-gray-400">Your ultimate destination for Fire Emblem Shadows guides, reviews, and community discussions.</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-4">Content</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="/reviews" class="hover:text-white transition-colors">Game Reviews</a></li>
+                        <li><a href="/guides" class="hover:text-white transition-colors">Strategy Guides</a></li>
+                        <li><a href="/news" class="hover:text-white transition-colors">Latest News</a></li>
+                        <li><a href="/characters" class="hover:text-white transition-colors">Character Database</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-4">Community</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="/forums" class="hover:text-white transition-colors">Discussion Forums</a></li>
+                        <li><a href="/tournaments" class="hover:text-white transition-colors">Tournaments</a></li>
+                        <li><a href="/leaderboards" class="hover:text-white transition-colors">Leaderboards</a></li>
+                        <li><a href="/events" class="hover:text-white transition-colors">Community Events</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-4">Support</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="/contact" class="hover:text-white transition-colors">Contact Us</a></li>
+                        <li><a href="/privacy" class="hover:text-white transition-colors">Privacy Policy</a></li>
+                        <li><a href="/terms" class="hover:text-white transition-colors">Terms of Service</a></li>
+                        <li><a href="/sitemap" class="hover:text-white transition-colors">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 Fire Emblem Shadows Community. All rights reserved. This site is not affiliated with Nintendo or Intelligent Systems.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+</body>
+</html>
