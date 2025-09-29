@@ -3,59 +3,59 @@
   <!-- Homepage -->
   <url>
     <loc>https://fireemblemshadows.org/</loc>
-    <lastmod>2025-09-25</lastmod>
+    <lastmod>2025-09-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   
-  <!-- Reviews Section -->
+  <!-- Review Section -->
   <url>
-    <loc>https://fireemblemshadows.org/reviews/</loc>
-    <lastmod>2025-09-25</lastmod>
+    <loc>https://fireemblemshadows.org/reviews/index.html</loc>
+    <lastmod>2025-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://fireemblemshadows.org/reviews/fire-emblem-shadows-complete-review</loc>
-    <lastmod>2025-09-25</lastmod>
+    <loc>https://fireemblemshadows.org/reviews/fire-emblem-shadows-complete-review.html</loc>
+    <lastmod>2025-09-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <!-- Guides Section -->
   <url>
-    <loc>https://fireemblemshadows.org/guides/</loc>
-    <lastmod>2025-09-25</lastmod>
+    <loc>https://fireemblemshadows.org/guides/index.html</loc>
+    <lastmod>2025-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://fireemblemshadows.org/guides/character-building-guide</loc>
-    <lastmod>2025-09-25</lastmod>
+    <loc>https://fireemblemshadows.org/guides/character-building-guide.html</loc>
+    <lastmod>2025-09-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://fireemblemshadows.org/guides/system-requirements</loc>
-    <lastmod>2025-09-25</lastmod>
+    <loc>https://fireemblemshadows.org/guides/system-requirements.html</loc>
+    <lastmod>2025-09-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://fireemblemshadows.org/guides/beginners-guide</loc>
-    <lastmod>2025-09-25</lastmod>
+    <loc>https://fireemblemshadows.org/guides/beginners-guide.html</loc>
+    <lastmod>2025-09-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <!-- News Section -->
   <url>
-    <loc>https://fireemblemshadows.org/news/</loc>
-    <lastmod>2025-09-25</lastmod>
+    <loc>https://fireemblemshadows.org/news/index.html</loc>
+    <lastmod>2025-09-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
