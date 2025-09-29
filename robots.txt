@@ -5,13 +5,8 @@ Allow: /
 Allow: /reviews/
 Allow: /guides/
 Allow: /news/
-Allow: /characters/
-Allow: /forums/
-Allow: /tournaments/
-Allow: /leaderboards/
-Allow: /events/
 
-# Disallow admin and private areas
+# Disallow potential future admin areas
 Disallow: /admin/
 Disallow: /private/
 Disallow: /temp/
