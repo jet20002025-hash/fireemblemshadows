@@ -1,1 +1,4 @@
+# ads.txt file for fireemblemshadows.org
+# IAB OpenRTB ads.txt - https://iabtechlab.com/ads-txt/
+
 google.com, pub-7208260866318884, DIRECT, f08c47fec0942fa0
